@@ -1,8 +1,8 @@
 import telebot
 import requests
 
-TELEGRAM_BOT_TOKEN = "8878697817:AAFLq1vVheuTUHvDG9a9Sletjek9Sp0mmxw"
-GEMINI_API_KEY = "AQ.Ab8RN6KBI0mzH1uQxDK_9FTYI17_4VyN_eJYj8L0K-iXieuPNA"
+TELEGRAM_BOT_TOKEN = os.getenv("8878697817:AAFLq1vVheuTUHvDG9a9Sletjek9Sp0mmxw")
+GEMINI_API_KEY =os.getenv("AQ.Ab8RN6KBI0mzH1uQxDK_9FTYI17_4VyN_eJYj8L0K-iXieuPNA")
 
 bot = telebot.TeleBot(TELEGRAM_BOT_TOKEN)
 
